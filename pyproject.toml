@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sarafan-test"
+version = "0.1.0"
+description = ""
+authors = ["Tatiana <tanyusha_tokor@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.3"
+python-dotenv = "^1.0.1"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.10"
+pillow = "^11.0.0"
+django-mptt = "^0.16.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-imagekit = "^5.0.0"
+django-smart-selects = "^1.7.2"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
